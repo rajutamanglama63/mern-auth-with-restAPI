@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Mega", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* header styles */
+.nav-bar {
+  background-color: brown;
+  height: 40px;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand {
+  margin-top: 0.3rem;
+}
+.brand a {
+  text-decoration: none;
+  color: cadetblue;
+}
+.brand a:hover {
+  color: rgb(120, 150, 151);
+}
+.navigator {
+  margin-top: 0.3rem;
+}
